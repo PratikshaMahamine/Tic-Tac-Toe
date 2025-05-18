@@ -4,11 +4,13 @@
     function markPlayer(box_id){
         if(player=='O'){
             document.getElementById(box_id).innerHTML=player
+            document.getElementById(box_id).style.backgroundColor="red"
             checkWinner()
             player='X'
         }
         else{
             document.getElementById(box_id).innerHTML=player
+            document.getElementById(box_id).style.backgroundColor="green"
             checkWinner()
             player='O'
         }
