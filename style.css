@@ -1,0 +1,46 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+    
+body{
+    width:100vw;
+    height:100vh;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 20px;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: #bbb;
+    border-radius: 8px;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.game{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 10px;
+    column-gap: 10px;
+}
+
+button{
+    height: 45px;
+    width: 75px;
+    background-color: coral;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-weight: 700;
+    color: white;
+}
